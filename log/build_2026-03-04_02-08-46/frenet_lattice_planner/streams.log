@@ -1,0 +1,67 @@
+[0.008s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew/sim_ws/src/frenet_lattice_planner -DCMAKE_INSTALL_PREFIX=/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.086s] -- The CXX compiler identification is GNU 13.3.0
+[0.099s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.387s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.457s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.479s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.487s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.629s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.769s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.806s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.874s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.874s] -- Configured cppcheck include dirs: /home/matthew/sim_ws/src/frenet_lattice_planner/include
+[0.874s] -- Configured cppcheck exclude dirs and/or files: 
+[0.875s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.875s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.876s] -- Added test 'lint_cmake' to check CMake code style
+[0.876s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.879s] -- Added test 'uncrustify' to check C / C++ code style
+[0.879s] -- Configured uncrustify additional arguments: 
+[0.880s] -- Added test 'xmllint' to check XML markup files
+[0.880s] -- Configuring done (0.9s)
+[0.888s] -- Generating done (0.0s)
+[0.890s] -- Build files have been written to: /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner
+[0.897s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew/sim_ws/src/frenet_lattice_planner -DCMAKE_INSTALL_PREFIX=/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner
+[0.898s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[0.941s] [ 50%] [32mBuilding CXX object CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o[0m
+[9.228s] [100%] [32m[1mLinking CXX executable frenet_planner_node[0m
+[9.509s] [100%] Built target frenet_planner_node
+[9.518s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[9.527s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner
+[9.534s] -- Install configuration: ""
+[9.535s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node
+[9.540s] -- Set non-toolchain portion of runtime path of "/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node" to ""
+[9.540s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/package_run_dependencies/frenet_lattice_planner
+[9.540s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/parent_prefix_path/frenet_lattice_planner
+[9.540s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.sh
+[9.540s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.dsv
+[9.540s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.sh
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.dsv
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.bash
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.sh
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.zsh
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.dsv
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.dsv
+[9.541s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/packages/frenet_lattice_planner
+[9.542s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig.cmake
+[9.542s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig-version.cmake
+[9.542s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.xml
+[9.543s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner

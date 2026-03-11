@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/matthew/sim_ws/src/frenet_lattice_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner
+[ 50%] [32mBuilding CXX object CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable frenet_planner_node[0m
+[100%] Built target frenet_planner_node
+-- Install configuration: ""
+-- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node
+-- Set non-toolchain portion of runtime path of "/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node" to ""
+-- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/package_run_dependencies/frenet_lattice_planner
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/parent_prefix_path/frenet_lattice_planner
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.sh
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.dsv
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.bash
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.sh
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.zsh
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.dsv
+-- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.dsv
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/packages/frenet_lattice_planner
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig.cmake
+-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig-version.cmake
+-- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.xml

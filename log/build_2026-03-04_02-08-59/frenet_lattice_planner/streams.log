@@ -1,0 +1,22 @@
+[0.007s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[0.053s] [100%] Built target frenet_planner_node
+[0.061s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[0.069s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner
+[0.076s] -- Install configuration: ""
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/package_run_dependencies/frenet_lattice_planner
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/parent_prefix_path/frenet_lattice_planner
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.sh
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.dsv
+[0.077s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.bash
+[0.078s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.sh
+[0.078s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.zsh
+[0.078s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.dsv
+[0.078s] -- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.dsv
+[0.078s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/packages/frenet_lattice_planner
+[0.079s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig.cmake
+[0.079s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig-version.cmake
+[0.079s] -- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.xml
+[0.079s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner

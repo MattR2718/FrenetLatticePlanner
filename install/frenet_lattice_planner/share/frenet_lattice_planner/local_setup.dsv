@@ -1,0 +1,2 @@
+source;share/frenet_lattice_planner/environment/ament_prefix_path.sh
+source;share/frenet_lattice_planner/environment/path.sh

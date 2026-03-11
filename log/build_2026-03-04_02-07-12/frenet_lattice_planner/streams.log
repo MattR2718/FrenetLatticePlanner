@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew/sim_ws/src/frenet_lattice_planner -DCMAKE_INSTALL_PREFIX=/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner
+[0.020s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.152s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.169s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.226s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.227s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.355s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.421s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.442s] Traceback (most recent call last):
+[0.444s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.444s]     from catkin_pkg.package import parse_package_string
+[0.444s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.449s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.449s]   execute_process(/home/matthew/miniconda3/bin/python3
+[0.449s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.449s]   /home/matthew/sim_ws/src/frenet_lattice_planner/package.xml
+[0.449s]   /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner/ament_cmake_core/package.cmake)
+[0.449s]   returned error code 1
+[0.449s] Call Stack (most recent call first):
+[0.449s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.449s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.449s]   CMakeLists.txt:52 (ament_lint_auto_find_test_dependencies)
+[0.449s] 
+[0.449s] [0m
+[0.450s] -- Configuring incomplete, errors occurred!
+[0.457s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew/sim_ws/src/frenet_lattice_planner -DCMAKE_INSTALL_PREFIX=/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner

@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000379] (frenet_lattice_planner) JobQueued: {'identifier': 'frenet_lattice_planner', 'dependencies': OrderedDict()}
+[0.000879] (frenet_lattice_planner) JobStarted: {'identifier': 'frenet_lattice_planner'}
+[0.014589] (frenet_lattice_planner) JobProgress: {'identifier': 'frenet_lattice_planner', 'progress': 'cmake'}
+[0.016826] (frenet_lattice_planner) JobProgress: {'identifier': 'frenet_lattice_planner', 'progress': 'build'}
+[0.016908] (frenet_lattice_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner', '--', '-j12', '-l12'], 'cwd': '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'matthew', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matthew', 'TERMINFO': '/usr/lib/kitty/terminfo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/matthew/sim_ws', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'KITTY_PID': '4518', 'MANAGERPID': '2253', 'SYSTEMD_EXEC_PID': '2538', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/matthew/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4518', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matthew/sim_ws/src/frenet_lattice_planner/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matthew', 'JOURNAL_STREAM': '9:22658', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'KITTY_PUBLIC_KEY': '1:*AVxd9(Ob`RPUG9=l5l%b0SYcbQ=4{X{dDqU2{AT', 'USERNAME': 'matthew', 'TERM': 'xterm-kitty', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/matthew/miniconda3/condabin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/elite:@/tmp/.ICE-unix/2495,unix/elite:/tmp/.ICE-unix/2495', 'INVOCATION_ID': '86c7e1ce91d943b9acc9f993b698bf1a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NFBVL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/matthew/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/matthew/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner', 'LC_ALL': 'en_GB.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/matthew/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099779] (-) TimerEvent: {}
+[0.193337] (frenet_lattice_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o\x1b[0m\n'}
+[0.199910] (-) TimerEvent: {}
+[0.300377] (-) TimerEvent: {}
+[0.400909] (-) TimerEvent: {}
+[0.501374] (-) TimerEvent: {}
+[0.603875] (-) TimerEvent: {}
+[0.704383] (-) TimerEvent: {}
+[0.804881] (-) TimerEvent: {}
+[0.905378] (-) TimerEvent: {}
+[1.005902] (-) TimerEvent: {}
+[1.106458] (-) TimerEvent: {}
+[1.206953] (-) TimerEvent: {}
+[1.307546] (-) TimerEvent: {}
+[1.408142] (-) TimerEvent: {}
+[1.508616] (-) TimerEvent: {}
+[1.609057] (-) TimerEvent: {}
+[1.709477] (-) TimerEvent: {}
+[1.809885] (-) TimerEvent: {}
+[1.910324] (-) TimerEvent: {}
+[2.010788] (-) TimerEvent: {}
+[2.111358] (-) TimerEvent: {}
+[2.211871] (-) TimerEvent: {}
+[2.312466] (-) TimerEvent: {}
+[2.412962] (-) TimerEvent: {}
+[2.513467] (-) TimerEvent: {}
+[2.613894] (-) TimerEvent: {}
+[2.714390] (-) TimerEvent: {}
+[2.814806] (-) TimerEvent: {}
+[2.915227] (-) TimerEvent: {}
+[3.015713] (-) TimerEvent: {}
+[3.116286] (-) TimerEvent: {}
+[3.216891] (-) TimerEvent: {}
+[3.317383] (-) TimerEvent: {}
+[3.418097] (-) TimerEvent: {}
+[3.518625] (-) TimerEvent: {}
+[3.619126] (-) TimerEvent: {}
+[3.719633] (-) TimerEvent: {}
+[3.820100] (-) TimerEvent: {}
+[3.920650] (-) TimerEvent: {}
+[4.021124] (-) TimerEvent: {}
+[4.121603] (-) TimerEvent: {}
+[4.222129] (-) TimerEvent: {}
+[4.322658] (-) TimerEvent: {}
+[4.423116] (-) TimerEvent: {}
+[4.523586] (-) TimerEvent: {}
+[4.624031] (-) TimerEvent: {}
+[4.724446] (-) TimerEvent: {}
+[4.824895] (-) TimerEvent: {}
+[4.925435] (-) TimerEvent: {}
+[5.025936] (-) TimerEvent: {}
+[5.126511] (-) TimerEvent: {}
+[5.226960] (-) TimerEvent: {}
+[5.327341] (-) TimerEvent: {}
+[5.427856] (-) TimerEvent: {}
+[5.528290] (-) TimerEvent: {}
+[5.628768] (-) TimerEvent: {}
+[5.729331] (-) TimerEvent: {}
+[5.829825] (-) TimerEvent: {}
+[5.930372] (-) TimerEvent: {}
+[6.030883] (-) TimerEvent: {}
+[6.131357] (-) TimerEvent: {}
+[6.231992] (-) TimerEvent: {}
+[6.332476] (-) TimerEvent: {}
+[6.432974] (-) TimerEvent: {}
+[6.533495] (-) TimerEvent: {}
+[6.634029] (-) TimerEvent: {}
+[6.734520] (-) TimerEvent: {}
+[6.834971] (-) TimerEvent: {}
+[6.935361] (-) TimerEvent: {}
+[7.035831] (-) TimerEvent: {}
+[7.136427] (-) TimerEvent: {}
+[7.236839] (-) TimerEvent: {}
+[7.337301] (-) TimerEvent: {}
+[7.437792] (-) TimerEvent: {}
+[7.538331] (-) TimerEvent: {}
+[7.638823] (-) TimerEvent: {}
+[7.739243] (-) TimerEvent: {}
+[7.839713] (-) TimerEvent: {}
+[7.940151] (-) TimerEvent: {}
+[8.040659] (-) TimerEvent: {}
+[8.141099] (-) TimerEvent: {}
+[8.241629] (-) TimerEvent: {}
+[8.342082] (-) TimerEvent: {}
+[8.442608] (-) TimerEvent: {}
+[8.543096] (-) TimerEvent: {}
+[8.643536] (-) TimerEvent: {}
+[8.743984] (-) TimerEvent: {}
+[8.844381] (-) TimerEvent: {}
+[8.944844] (-) TimerEvent: {}
+[9.045391] (-) TimerEvent: {}
+[9.145828] (-) TimerEvent: {}
+[9.246331] (-) TimerEvent: {}
+[9.346783] (-) TimerEvent: {}
+[9.447386] (-) TimerEvent: {}
+[9.547854] (-) TimerEvent: {}
+[9.648295] (-) TimerEvent: {}
+[9.748702] (-) TimerEvent: {}
+[9.849138] (-) TimerEvent: {}
+[9.949577] (-) TimerEvent: {}
+[10.050176] (-) TimerEvent: {}
+[10.150928] (-) TimerEvent: {}
+[10.251638] (-) TimerEvent: {}
+[10.352141] (-) TimerEvent: {}
+[10.452581] (-) TimerEvent: {}
+[10.553036] (-) TimerEvent: {}
+[10.653521] (-) TimerEvent: {}
+[10.754066] (-) TimerEvent: {}
+[10.854559] (-) TimerEvent: {}
+[10.955015] (-) TimerEvent: {}
+[11.055446] (-) TimerEvent: {}
+[11.155882] (-) TimerEvent: {}
+[11.256394] (-) TimerEvent: {}
+[11.356906] (-) TimerEvent: {}
+[11.457393] (-) TimerEvent: {}
+[11.557870] (-) TimerEvent: {}
+[11.658409] (-) TimerEvent: {}
+[11.758900] (-) TimerEvent: {}
+[11.859381] (-) TimerEvent: {}
+[11.959830] (-) TimerEvent: {}
+[12.060312] (-) TimerEvent: {}
+[12.160746] (-) TimerEvent: {}
+[12.261294] (-) TimerEvent: {}
+[12.361895] (-) TimerEvent: {}
+[12.462453] (-) TimerEvent: {}
+[12.562913] (-) TimerEvent: {}
+[12.663350] (-) TimerEvent: {}
+[12.763798] (-) TimerEvent: {}
+[12.864548] (-) TimerEvent: {}
+[12.965318] (-) TimerEvent: {}
+[13.065813] (-) TimerEvent: {}
+[13.166343] (-) TimerEvent: {}
+[13.266755] (-) TimerEvent: {}
+[13.367214] (-) TimerEvent: {}
+[13.467686] (-) TimerEvent: {}
+[13.568129] (-) TimerEvent: {}
+[13.668546] (-) TimerEvent: {}
+[13.769067] (-) TimerEvent: {}
+[13.869493] (-) TimerEvent: {}
+[13.969938] (-) TimerEvent: {}
+[14.070433] (-) TimerEvent: {}
+[14.170878] (-) TimerEvent: {}
+[14.271375] (-) TimerEvent: {}
+[14.371823] (-) TimerEvent: {}
+[14.472397] (-) TimerEvent: {}
+[14.572828] (-) TimerEvent: {}
+[14.673224] (-) TimerEvent: {}
+[14.773717] (-) TimerEvent: {}
+[14.874147] (-) TimerEvent: {}
+[14.974596] (-) TimerEvent: {}
+[15.075092] (-) TimerEvent: {}
+[15.175684] (-) TimerEvent: {}
+[15.276090] (-) TimerEvent: {}
+[15.376526] (-) TimerEvent: {}
+[15.476989] (-) TimerEvent: {}
+[15.577484] (-) TimerEvent: {}
+[15.678045] (-) TimerEvent: {}
+[15.778591] (-) TimerEvent: {}
+[15.878985] (-) TimerEvent: {}
+[15.979574] (-) TimerEvent: {}
+[16.080206] (-) TimerEvent: {}
+[16.180606] (-) TimerEvent: {}
+[16.281024] (-) TimerEvent: {}
+[16.381454] (-) TimerEvent: {}
+[16.481902] (-) TimerEvent: {}
+[16.582444] (-) TimerEvent: {}
+[16.682965] (-) TimerEvent: {}
+[16.783412] (-) TimerEvent: {}
+[16.883767] (-) TimerEvent: {}
+[16.984103] (-) TimerEvent: {}
+[17.086948] (-) TimerEvent: {}
+[17.187368] (-) TimerEvent: {}
+[17.287738] (-) TimerEvent: {}
+[17.388104] (-) TimerEvent: {}
+[17.488428] (-) TimerEvent: {}
+[17.588775] (-) TimerEvent: {}
+[17.689215] (-) TimerEvent: {}
+[17.789598] (-) TimerEvent: {}
+[17.889999] (-) TimerEvent: {}
+[17.990450] (-) TimerEvent: {}
+[18.090838] (-) TimerEvent: {}
+[18.191297] (-) TimerEvent: {}
+[18.291620] (-) TimerEvent: {}
+[18.392023] (-) TimerEvent: {}
+[18.492473] (-) TimerEvent: {}
+[18.593002] (-) TimerEvent: {}
+[18.693481] (-) TimerEvent: {}
+[18.793921] (-) TimerEvent: {}
+[18.894365] (-) TimerEvent: {}
+[18.994837] (-) TimerEvent: {}
+[19.095278] (-) TimerEvent: {}
+[19.195645] (-) TimerEvent: {}
+[19.296177] (-) TimerEvent: {}
+[19.396712] (-) TimerEvent: {}
+[19.497221] (-) TimerEvent: {}
+[19.597745] (-) TimerEvent: {}
+[19.698105] (-) TimerEvent: {}
+[19.798523] (-) TimerEvent: {}
+[19.898899] (-) TimerEvent: {}
+[19.999436] (-) TimerEvent: {}
+[20.099818] (-) TimerEvent: {}
+[20.200340] (-) TimerEvent: {}
+[20.300729] (-) TimerEvent: {}
+[20.401143] (-) TimerEvent: {}
+[20.501657] (-) TimerEvent: {}
+[20.602078] (-) TimerEvent: {}
+[20.702576] (-) TimerEvent: {}
+[20.802992] (-) TimerEvent: {}
+[20.903341] (-) TimerEvent: {}
+[21.003754] (-) TimerEvent: {}
+[21.104145] (-) TimerEvent: {}
+[21.204511] (-) TimerEvent: {}
+[21.304878] (-) TimerEvent: {}
+[21.405389] (-) TimerEvent: {}
+[21.505904] (-) TimerEvent: {}
+[21.606353] (-) TimerEvent: {}
+[21.706747] (-) TimerEvent: {}
+[21.807182] (-) TimerEvent: {}
+[21.907583] (-) TimerEvent: {}
+[22.008025] (-) TimerEvent: {}
+[22.108526] (-) TimerEvent: {}
+[22.209129] (-) TimerEvent: {}
+[22.309753] (-) TimerEvent: {}
+[22.410153] (-) TimerEvent: {}
+[22.510567] (-) TimerEvent: {}
+[22.610984] (-) TimerEvent: {}
+[22.711341] (-) TimerEvent: {}
+[22.811730] (-) TimerEvent: {}
+[22.912224] (-) TimerEvent: {}
+[23.012781] (-) TimerEvent: {}
+[23.113273] (-) TimerEvent: {}
+[23.213767] (-) TimerEvent: {}
+[23.314245] (-) TimerEvent: {}
+[23.414693] (-) TimerEvent: {}
+[23.515154] (-) TimerEvent: {}
+[23.615696] (-) TimerEvent: {}
+[23.716340] (-) TimerEvent: {}
+[23.817002] (-) TimerEvent: {}
+[23.917474] (-) TimerEvent: {}
+[24.017888] (-) TimerEvent: {}
+[24.118312] (-) TimerEvent: {}
+[24.218864] (-) TimerEvent: {}
+[24.319593] (-) TimerEvent: {}
+[24.420122] (-) TimerEvent: {}
+[24.520684] (-) TimerEvent: {}
+[24.621146] (-) TimerEvent: {}
+[24.721516] (-) TimerEvent: {}
+[24.822015] (-) TimerEvent: {}
+[24.922517] (-) TimerEvent: {}
+[25.023023] (-) TimerEvent: {}
+[25.038872] (frenet_lattice_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable frenet_planner_node\x1b[0m\n'}
+[25.123148] (-) TimerEvent: {}
+[25.223635] (-) TimerEvent: {}
+[25.324047] (-) TimerEvent: {}
+[25.424628] (-) TimerEvent: {}
+[25.525108] (-) TimerEvent: {}
+[25.625616] (-) TimerEvent: {}
+[25.726149] (-) TimerEvent: {}
+[25.826847] (-) TimerEvent: {}
+[25.907854] (frenet_lattice_planner) StdoutLine: {'line': b'[100%] Built target frenet_planner_node\n'}
+[25.926984] (-) TimerEvent: {}
+[25.933095] (frenet_lattice_planner) CommandEnded: {'returncode': 0}
+[25.934711] (frenet_lattice_planner) JobProgress: {'identifier': 'frenet_lattice_planner', 'progress': 'install'}
+[25.959073] (frenet_lattice_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner'], 'cwd': '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'matthew', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matthew', 'TERMINFO': '/usr/lib/kitty/terminfo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/matthew/sim_ws', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'KITTY_PID': '4518', 'MANAGERPID': '2253', 'SYSTEMD_EXEC_PID': '2538', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/matthew/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4518', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matthew/sim_ws/src/frenet_lattice_planner/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matthew', 'JOURNAL_STREAM': '9:22658', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'KITTY_PUBLIC_KEY': '1:*AVxd9(Ob`RPUG9=l5l%b0SYcbQ=4{X{dDqU2{AT', 'USERNAME': 'matthew', 'TERM': 'xterm-kitty', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/matthew/miniconda3/condabin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/elite:@/tmp/.ICE-unix/2495,unix/elite:/tmp/.ICE-unix/2495', 'INVOCATION_ID': '86c7e1ce91d943b9acc9f993b698bf1a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NFBVL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/matthew/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/matthew/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner', 'LC_ALL': 'en_GB.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/matthew/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[25.975661] (frenet_lattice_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.976844] (frenet_lattice_planner) StdoutLine: {'line': b'-- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node\n'}
+[25.990199] (frenet_lattice_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/frenet_lattice_planner/frenet_planner_node" to ""\n'}
+[25.990729] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/package_run_dependencies/frenet_lattice_planner\n'}
+[25.990953] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/parent_prefix_path/frenet_lattice_planner\n'}
+[25.991332] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.sh\n'}
+[25.991531] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/ament_prefix_path.dsv\n'}
+[25.991699] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.sh\n'}
+[25.991862] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/environment/path.dsv\n'}
+[25.992027] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.bash\n'}
+[25.992184] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.sh\n'}
+[25.992354] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.zsh\n'}
+[25.992514] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/local_setup.dsv\n'}
+[25.992670] (frenet_lattice_planner) StdoutLine: {'line': b'-- Installing: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.dsv\n'}
+[25.992830] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/ament_index/resource_index/packages/frenet_lattice_planner\n'}
+[25.992990] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig.cmake\n'}
+[25.993150] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/cmake/frenet_lattice_plannerConfig-version.cmake\n'}
+[25.993718] (frenet_lattice_planner) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.xml\n'}
+[25.994821] (frenet_lattice_planner) CommandEnded: {'returncode': 0}
+[26.013991] (frenet_lattice_planner) JobEnded: {'identifier': 'frenet_lattice_planner', 'rc': 0}
+[26.015521] (-) EventReactorShutdown: {}

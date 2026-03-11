@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o[0m
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:[m[K In member function ‘[01m[Kvoid FrenetPlanner::[01;32m[Ktrack_path[m[K(const FrenetTrajectory&, double)[m[K’:
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:588:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_lookahead[m[K’ was not declared in this scope
+  588 |         if (dist <= [01;31m[Kmax_lookahead[m[K) {
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:576:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_lookahead_distance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  576 |     double [01;35m[Kmax_lookahead_distance[m[K = std::clamp(current_speed * 0.5, 0.5, 3.0);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/frenet_planner_node.dir/build.make:76: CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/frenet_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

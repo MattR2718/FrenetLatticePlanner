@@ -1,0 +1,46 @@
+[0.007s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew/sim_ws/src/frenet_lattice_planner -DCMAKE_INSTALL_PREFIX=/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner
+[0.058s] -- The C compiler identification is GNU 13.3.0
+[0.098s] -- The CXX compiler identification is GNU 13.3.0
+[0.112s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /home/matthew/miniconda3/bin/python3 (found version "3.13.9") found components: Interpreter 
+[0.468s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.505s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.590s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.664s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.685s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.761s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.810s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.857s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.878s] Traceback (most recent call last):
+[0.880s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.880s]     from catkin_pkg.package import parse_package_string
+[0.880s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.884s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.884s]   execute_process(/home/matthew/miniconda3/bin/python3
+[0.884s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.884s]   /home/matthew/sim_ws/src/frenet_lattice_planner/package.xml
+[0.884s]   /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner/ament_cmake_core/package.cmake)
+[0.884s]   returned error code 1
+[0.884s] Call Stack (most recent call first):
+[0.884s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.884s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.885s]   CMakeLists.txt:52 (ament_lint_auto_find_test_dependencies)
+[0.885s] 
+[0.885s] [0m
+[0.885s] -- Configuring incomplete, errors occurred!
+[0.894s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew/sim_ws/src/frenet_lattice_planner -DCMAKE_INSTALL_PREFIX=/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner

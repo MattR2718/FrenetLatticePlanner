@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o[0m
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:[m[K In member function ‘[01m[Kvoid FrenetPlanner::[01;32m[Kodom_callback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:254:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFrenetPlanner::publish_lattice_markers(std::vector<FrenetTrajectory>&, std::vector<FrenetTrajectory>&)[m[K’
+  254 |         [01;31m[Kpublish_lattice_markers(safe_lattice, unsafe_lattice)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:35:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid FrenetPlanner::[01;32m[Kpublish_lattice_markers[m[K(const std::vector<FrenetTrajectory>&, const std::vector<FrenetTrajectory>&, const FrenetTrajectory&)[m[K’
+   35 | void [01;36m[KFrenetPlanner[m[K::publish_lattice_markers(const std::vector<FrenetTrajectory>& safe_lattice, const std::vector<FrenetTrajectory>& unsafe_lattice, const FrenetTrajectory& chosen_traj){
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:35:6:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/frenet_planner_node.dir/build.make:76: CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/frenet_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

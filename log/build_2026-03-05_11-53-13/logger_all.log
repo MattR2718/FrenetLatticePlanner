@@ -1,0 +1,104 @@
+[0.139s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'frenet_lattice_planner']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['frenet_lattice_planner'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x785e417a4710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x785e417a4410>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x785e417a4410>>, mixin_verb=('build',))
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.191s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/matthew/sim_ws/src/frenet_lattice_planner'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'frenet_lattice_planner'
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/matthew/sim_ws/src/frenet_lattice_planner/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/jazzy
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'frenet_lattice_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'frenet_lattice_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner', 'merge_install': False, 'path': '/home/matthew/sim_ws/src/frenet_lattice_planner', 'symlink_install': False, 'test_result_base': None}
+[0.311s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matthew/sim_ws/src/frenet_lattice_planner' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matthew/sim_ws/src/frenet_lattice_planner'
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[26.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[26.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner
+[26.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(frenet_lattice_planner)
+[26.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner
+[26.311s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner' for CMake module files
+[26.311s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner' for CMake config files
+[26.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('frenet_lattice_planner', 'cmake_prefix_path')
+[26.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/hook/cmake_prefix_path.ps1'
+[26.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/hook/cmake_prefix_path.dsv'
+[26.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/hook/cmake_prefix_path.sh'
+[26.314s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib'
+[26.314s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/bin'
+[26.314s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/pkgconfig/frenet_lattice_planner.pc'
+[26.314s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/python3.12/site-packages'
+[26.315s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/bin'
+[26.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.ps1'
+[26.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.dsv'
+[26.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.sh'
+[26.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.bash'
+[26.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.zsh'
+[26.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/colcon-core/packages/frenet_lattice_planner)
+[26.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(frenet_lattice_planner)
+[26.319s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner' for CMake module files
+[26.319s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner' for CMake config files
+[26.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('frenet_lattice_planner', 'cmake_prefix_path')
+[26.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/hook/cmake_prefix_path.ps1'
+[26.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/hook/cmake_prefix_path.dsv'
+[26.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/hook/cmake_prefix_path.sh'
+[26.322s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib'
+[26.322s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/bin'
+[26.322s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/pkgconfig/frenet_lattice_planner.pc'
+[26.322s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/lib/python3.12/site-packages'
+[26.323s] Level 1:colcon.colcon_core.environment:checking '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/bin'
+[26.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.ps1'
+[26.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.dsv'
+[26.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.sh'
+[26.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.bash'
+[26.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/frenet_lattice_planner/package.zsh'
+[26.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matthew/sim_ws/src/frenet_lattice_planner/install/frenet_lattice_planner/share/colcon-core/packages/frenet_lattice_planner)
+[26.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.327s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.361s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/local_setup.ps1'
+[26.364s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matthew/sim_ws/src/frenet_lattice_planner/install/_local_setup_util_ps1.py'
+[26.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/setup.ps1'
+[26.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/local_setup.sh'
+[26.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matthew/sim_ws/src/frenet_lattice_planner/install/_local_setup_util_sh.py'
+[26.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/setup.sh'
+[26.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/local_setup.bash'
+[26.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/setup.bash'
+[26.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/local_setup.zsh'
+[26.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matthew/sim_ws/src/frenet_lattice_planner/install/setup.zsh'

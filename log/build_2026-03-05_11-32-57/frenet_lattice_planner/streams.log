@@ -1,0 +1,15 @@
+[0.010s] Invoking command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o[0m
+[1.780s] [01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:[m[K In member function ‘[01m[Kvoid FrenetPlanner::[01;32m[Kodom_callback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.780s] [01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:263:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFrenetPlanner::track_path(FrenetTrajectory&, double&)[m[K’
+[1.780s]   263 |         [01;31m[Ktrack_path(best_trajectory, curr_v)[m[K;
+[1.780s]       |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.780s] In file included from [01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/src/frenet_planner.cpp:1[m[K:
+[1.781s] [01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/include/frenet_lattice_planner/frenet_planner.h:106:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid FrenetPlanner::[01;32m[Ktrack_path[m[K(const FrenetTrajectory&)[m[K’
+[1.781s]   106 |     void [01;36m[Ktrack_path[m[K(const FrenetTrajectory& target_path);
+[1.781s]       |          [01;36m[K^~~~~~~~~~[m[K
+[1.781s] [01m[K/home/matthew/sim_ws/src/frenet_lattice_planner/include/frenet_lattice_planner/frenet_planner.h:106:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[5.329s] gmake[2]: *** [CMakeFiles/frenet_planner_node.dir/build.make:76: CMakeFiles/frenet_planner_node.dir/src/frenet_planner.cpp.o] Error 1
+[5.329s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/frenet_planner_node.dir/all] Error 2
+[5.329s] gmake: *** [Makefile:146: all] Error 2
+[5.331s] Invoked command in '/home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew/sim_ws/src/frenet_lattice_planner/build/frenet_lattice_planner -- -j12 -l12
